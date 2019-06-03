@@ -27,3 +27,7 @@ Route::get('/admin',"ntb@note");
 Route::get('/save_new',"ntb@saveNewTerm");
 
 
+///// interactive form 
+Route::get('/welcome_form',"interactive_from@welcome_form");
+
+
